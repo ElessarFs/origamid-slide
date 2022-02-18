@@ -131,7 +131,6 @@ export default class Slide {
 
   onResize() {
     setTimeout(() => {
-      console.log("executei");
       this.slidesConfig();
       this.changeSlide(this.index.active);
     }, 100);
